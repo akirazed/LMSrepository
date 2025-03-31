@@ -19,7 +19,11 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://localhost';
+<<<<<<< Updated upstream
 $CFG->dataroot  = 'C:\\Users\\Zedric Berwin\\Desktop\\OJT files\\project system moodle\\moodleinstall\\server\\moodledata';
+=======
+$CFG->dataroot  = 'C:\Users\Zedric Berwin\Desktop\OJT files\repository\ojt';
+>>>>>>> Stashed changes
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

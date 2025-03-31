@@ -1,0 +1,135 @@
+a:9:{s:15:"backgroundimage";s:20:"/CLSU Green BG 2.jpg";s:10:"brandcolor";s:7:"#1e6031";s:20:"loginbackgroundimage";s:24:"/Green_Silver Siever.jpg";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:3713:"/* General Typography */
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('/fonts/AcuminPro-Regular.woff2') format('woff2'),
+         url('/fonts/AcuminPro-Regular.woff') format('woff'),
+         url('/fonts/AcuminPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Buttershine Serif';
+    src: url('/fonts/ButtershineSerif-Regular.woff2') format('woff2'),
+         url('/fonts/ButtershineSerif-Regular.woff') format('woff'),
+         url('/fonts/ButtershineSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+}
+
+/* Apply Acumin Pro for body text */
+body {
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 18px;
+}
+
+/* Apply Buttershine Serif for h1 */
+h1 {
+    font-family: 'Buttershine Serif', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Apply Anton for h2 */
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+/* Navbar Styles */
+#nav-drawer {
+    width: 280px !important;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    height: 70px !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 0 20px;
+}
+
+/* Align navbar items properly */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spacing between elements */
+}
+
+/* Push notification icon to the right */
+.navbar-nav.ml-auto {
+    margin-left: auto !important;
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust Bell Icon Position */
+.navbar-nav .nav-item.bell-icon {
+    margin-left: auto !important; /* Push it to the right */
+    position: relative;
+    right: 10px; /* Fine-tune positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make sure the bell icon is the correct size and color */
+.navbar-nav .nav-item.bell-icon .nav-link i {
+    font-size: 22px; /* Adjust icon size */
+    color: #1e6031 !important; /* Set it to the green used in the navbar */
+    vertical-align: middle;
+}
+
+/* Ensure the links in navbar are styled correctly */
+.navbar .navbar-brand, 
+.navbar .navbar-nav .nav-link {
+    color: #1e6031!important; /* Ensure color consistency */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Navbar links when hovered or active */
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+    background-color: #2F4E2F !important; /* Light Green */
+    color: white !important; /* White text */
+    border-radius: 5px; /* Smooth border for buttons */
+}
+
+/* Sidebar & Other Text Colors */
+#nav-drawer .list-group-item:hover,
+#page-header .breadcrumb-item.active {
+    color: #1e6031 !important; /* Match navbar color */
+}
+
+/* Fix the color of tab links (e.g., General, Users, Courses) */
+.nav-tabs .nav-link {
+    color: #1e6031 !important; /* Default Green */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Tab links when active or hovered */
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+    background-color: #2F4E2F !important; /* Light Green */
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .pagelayout-standard #page.drawers .main-inner,
+    body.limitedwidth #page.drawers .main-inner {
+        max-width: 1350px !important
+    }
+}
+";s:7:"scsspre";s:0:"";s:15:"unaddableblocks";s:45:"navigation,settings,course_list,section_links";s:7:"version";s:10:"2024100700";}
